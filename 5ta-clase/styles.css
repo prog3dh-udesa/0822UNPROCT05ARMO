@@ -1,0 +1,13 @@
+*{
+    box-sizing: border-box;
+}
+
+span{
+    background-color: black;
+    color:white;
+}
+
+div{
+    background-color: red;
+    color:white;
+}

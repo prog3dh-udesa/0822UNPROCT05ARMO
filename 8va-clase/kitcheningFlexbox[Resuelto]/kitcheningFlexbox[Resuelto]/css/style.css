@@ -1,0 +1,134 @@
+/* configuraciones principales y reset de etiquetas */
+*{
+    box-sizing: border-box;
+}
+ul, ol{
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+/* Generales */
+body {
+    background-image: url('../img/bg-body.png');
+    font-family: sans-serif;
+}
+
+.main-container{
+    max-width: 1180px; /* Esta propiedad tendrá más sentido cuando apliquemos responsive. Permite ver como funciona flex cambiando el tamaño de la pantalla. Si perfieren puede quedar como width:1180px */
+    margin:0 auto;  /* Explicar que así se puede centrar un bloque en el medio de su contenedor. Es el paralelo 'text-align: center' que se usa para centrar elementos de línea aplicándolo al contenedor.*/
+}
+
+p {
+    font-size: 20px;
+    color: #666;
+}
+/* Menu Accesos */
+.menu-access ul {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.menu-access li{
+    margin-left: 1.69%;
+}
+.menu-access a{
+    color: #444;
+}
+.menu-access a:hover{
+    text-decoration: underline;
+}
+
+
+/* Header*/
+.main-header{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.logo{
+    width: 15.25%; /* 180px/ 1180px*/
+    margin-bottom: 30px;
+    border-radius: 90px;
+    border: 1px solid #ccc;
+}
+.toggle-nav{
+    display:none;
+}
+.main-nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.main-nav li{
+    text-align: center;
+    width: 15.25%;  /* 180px/ 1180px*/
+}
+.main-nav a{
+    display: inline-block;
+    width: 100%;
+    text-transform: uppercase;
+    background-color: #444;
+    color: #fff; 
+    padding: 16px 0;
+}
+/* banner */
+.banner img{
+    margin: 0 0 30px;
+    width: 100%; /* Para que respete el ancho del contenedor*/
+}
+
+/* productos */
+.vip-products{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.vip-products article{
+    width: 380px;
+    margin-bottom: 30px;
+}
+.photo-container img{
+    width: 100%;
+}
+.product .more{
+    background-color: #444;
+    padding: 10px 20px;
+    text-transform: capitalize;
+    display: inline-block; /* para que respete props de caja y no se encime con el elemento de arriba */
+}
+
+/* footer */
+.main-footer{
+    background: rgb(200,0,0);
+    border-radius: 30px 30px 0 0;
+    padding: 25px 0;
+}
+.main-footer ul{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+.main-footer li {
+    border-right: 1px solid #fff;
+    text-transform: capitalize;
+}
+.main-footer a{
+    display: inline-block;
+    padding: 2px 10px;
+}

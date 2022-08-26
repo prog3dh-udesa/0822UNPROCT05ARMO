@@ -1,0 +1,35 @@
+h2.subtitulo {
+    color: rgba(250, 128, 114, .1);
+    font-size: 150px;
+    font-family: Arial;
+}
+
+h2 {
+    color:#169335;
+}
+
+
+
+.texto-verde {
+    color: green;
+}
+
+#especial {
+    color:burlywood;
+}
+
+h2.subtitulo{
+    font-size:30px;
+}
+
+ul .par{
+    font-size: 60px;
+}
+
+.background{
+    height:300px;
+    width:500px;
+    background-image:url('../img/gato.webp');
+    background-size:cover;
+    background-repeat:no-repeat;
+}

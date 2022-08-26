@@ -1,0 +1,13 @@
+h1{
+    font-family: 'Silkscreen', cursive;
+}
+
+.mi-etiqueta{
+    color:blue; 
+    font-size: 200px; 
+    font-family: 'Lato', sans-serif;
+}
+
+p.otraClase{
+    color:red;
+}

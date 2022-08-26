@@ -1,0 +1,40 @@
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color:rgba(162, 113, 207, 0.691);
+    padding:15px;
+    height:650px;
+}
+
+.item{
+    background-color: rgba(122, 230, 194, 0.787);
+    margin:15px;
+    padding:15px;
+    width:150px;
+}
+
+img{
+    height:100px
+}
+
+.shrek{
+
+}
+
+.fiona{
+    
+}
+
+.gato{
+
+}
+
+.burro{
+
+}
+
+.pinocho{
+    
+}
