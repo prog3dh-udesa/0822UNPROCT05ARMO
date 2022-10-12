@@ -1,0 +1,30 @@
+.section1{
+    background-color: blue;
+    width:70%;
+}
+
+.section2{
+    background:red;
+    width:50%;
+}
+
+@media (min-width: 768px){
+    main{
+        display: flex;
+    }
+    .section1{
+        width:20%
+    }
+    .section2{
+        width:80%;
+    }
+}
+
+@media (min-width: 1024px){
+    main{
+        display: block;
+    }
+    .section1, .section2{
+        width:100vw;
+    }
+}
