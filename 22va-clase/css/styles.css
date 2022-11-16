@@ -1,0 +1,12 @@
+body.dark{
+    background-color: rgb(23, 14, 62);
+    color:white;
+}
+
+body.dark p{
+    font-size: 32px;
+}
+
+.imagen{
+    max-width: 60px;
+}
